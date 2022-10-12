@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>You're Invited</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+    <div id="parent">
+        <div class="title">
+            <h1> You're Invited</h1>
+            <h2>to a</h2>
+            <h1>Movie Night!</h1>
+        </div>
+        <div class="description">
+            <p>Come watch a movie and enjoy some snacks!</p>
+        </div>
+    <div>
+        <div class="date">
+            <p>October 15th, 2022</p>
+        </div>
+        <div class="location">
+            <p>St. Miguel Court 
+                <br>
+                Townhouse C16</p>
+        </div>
+        <div class="rsvp">
+            <h1>RSVP</h1>
+        </div>
+        <div class="snackpack">
+            <h1><a id="button" href="https://www.etsy.com/market/movie_night_snack" target="_blank">Snack Pack</a></h1>
+        </div>
+    </div> 
+    </div>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+        <script src="sketch.js"></script>
+        
+        <script>
+            let clickerbutton = document.getElementById("button");
+            let onButtonClick = function () {
+                clickerbutton.innerHTML = "Good Choice!";
+                event.target.style.color = '0, 68, 179';
+        
+            }
+            
+            clickerbutton.addEventListener("click", onButtonClick);
+            
+        </script>
+        
+        
+    </body>
+    
+    
+</html>

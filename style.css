@@ -1,0 +1,72 @@
+body{
+    background-color: #8b0000;
+    color: snow;
+    font-family: "Impact", sans-serif;
+}
+h1 {
+    color: snow;
+}
+p{
+    font-size: 17pt;
+}
+canvas {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: -1; 
+}
+
+#parent {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top: 335px;
+}
+
+.title {
+    position: absolute;
+    top: 4%;
+    left: 35%;
+    text-align: center;
+    line-height: 85%;
+}
+.description {
+    position: absolute;
+    color:#92b9be;
+    top: 37%;
+    left: 15%;
+    text-align: center;
+}
+.date {
+    position:absolute;
+    top:65%;
+    left:3%;
+}
+.location {
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    text-align: center;
+}
+.rsvp {
+    position: absolute;
+    top: 57%;
+    right:13%;
+    text-align: center;
+}
+.snackpack {
+    color: white;
+    text-decoration-color: white;
+    position: absolute;
+    top: 70%;
+    left:69%;
+    text-align: center;
+}
+.snackpack a {
+    color:white;
+}
+.snackpack a:hover {
+    color:gold;
+}
